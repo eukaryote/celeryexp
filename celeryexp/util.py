@@ -11,5 +11,4 @@ def dump(path, value):
 
 
 def pause(seconds=0.1):
-    if True:
-        time.sleep(random.random() * seconds)
+    time.sleep(random.random() * seconds)
